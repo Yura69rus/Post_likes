@@ -1,7 +1,7 @@
 from pprint import pprint
 import vk_api
 
-vk = vk_api.VkApi('89190628433', 'юра12042006')
+vk = vk_api.VkApi('login', 'password')
 vk.auth()
 
 group_id = input('Введите id группы: ')
